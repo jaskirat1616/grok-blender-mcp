@@ -1,0 +1,33 @@
+[project]
+name = "grok-blender-mcp"
+version = "0.2.0"
+description = "Grok-first, safety-first MCP server for controlling Blender with vision feedback and high-level tools."
+readme = "README.md"
+license = {text = "MIT"}
+authors = [{name = "Grok / xAI"}]
+requires-python = ">=3.10"
+dependencies = [
+    "fastmcp>=2.0.0",
+    "pydantic>=2.0.0",
+    "pillow>=10.0.0",
+    "typing-extensions>=4.0.0",
+]
+
+[project.scripts]
+grok-blender-mcp = "grok_blender_mcp.server:main"
+
+[project.urls]
+Homepage = "https://github.com/xai-org/grok-blender-mcp"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.uv]
+dev-dependencies = [
+    "pytest>=8.0",
+    "ruff>=0.4",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
