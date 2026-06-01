@@ -139,3 +139,12 @@ MIT
 ---
 
 Built as a custom integration to give Grok first-class 3D modeling capabilities inside Blender.
+
+## Links
+
+- **Repository**: https://github.com/jaskirat1616/grok-blender-mcp
+- **Issues**: https://github.com/jaskirat1616/grok-blender-mcp/issues
+
+---
+
+*Built to give Grok powerful, safe, and vision-aware control over Blender.*
