@@ -3,7 +3,7 @@
 This tool gives an LLM significant control over Blender. Treat it seriously.
 
 ## Protections Built In
-- Safe Mode (default ON) — raw code execution restricted
+- Safe Mode (default ON) - raw code execution restricted
 - Every mutation pushes an undo step
 - Big red "EMERGENCY UNDO" button in the Blender UI
 - High-level tools are the recommended path

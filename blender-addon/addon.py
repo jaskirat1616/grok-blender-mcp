@@ -1,5 +1,5 @@
 """
-Grok Blender MCP Addon — Full single-file implementation (v0.2)
+Grok Blender MCP Addon - Full single-file implementation (v0.2)
 
 Install via Blender Preferences > Add-ons > Install > select this file.
 Then in the 3D View N-panel (Grok Blender MCP tab) click "Connect to Grok".

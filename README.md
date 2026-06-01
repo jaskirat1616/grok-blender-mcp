@@ -1,16 +1,16 @@
 # Grok Blender MCP
 
-A production-grade, **Grok-first** Model Context Protocol (MCP) server that gives Grok native control over Blender.
+A **Grok-first** Model Context Protocol (MCP) server that gives Grok native control over Blender.
 
-Describe what you want in natural language and watch Grok build, modify, and iterate on 3D scenes directly in Blender — with real vision feedback via viewport screenshots.
+Describe what you want in natural language and watch Grok build, modify, and iterate on 3D scenes directly in Blender - with real vision feedback via viewport screenshots.
 
 ## Features
 
-- **High-level safe tools** — Create primitives, transform objects, apply materials, add lights, set up cameras, etc.
-- **Real vision feedback** — `take_screenshot` returns actual viewport images so Grok can see what it just created.
-- **Strong safety defaults** — Safe Mode enabled by default, automatic undo on every mutation, emergency undo button in Blender.
-- **Guarded code execution** — Powerful escape hatch with dry-run mode and basic safety scanning.
-- **Grok-optimized** — Includes curated prompting strategies and workflows designed for Grok's strengths.
+- **High-level safe tools** - Create primitives, transform objects, apply materials, add lights, set up cameras, etc.
+- **Real vision feedback** - `take_screenshot` returns actual viewport images so Grok can see what it just created.
+- **Strong safety defaults** - Safe Mode enabled by default, automatic undo on every mutation, emergency undo button in Blender.
+- **Guarded code execution** - Powerful escape hatch with dry-run mode and basic safety scanning.
+- **Grok-optimized** - Includes curated prompting strategies and workflows designed for Grok's strengths.
 
 ## Prerequisites
 

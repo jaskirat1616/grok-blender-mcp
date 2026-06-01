@@ -1,5 +1,5 @@
 """
-Grok Blender MCP Server — Full implementation.
+Grok Blender MCP Server - Full implementation.
 
 High-level safe tools + guarded code execution + real vision feedback (screenshots as images).
 Optimized for Grok's strengths: vision, iterative reasoning, excellent Python understanding.
@@ -267,14 +267,14 @@ async def execute_code(ctx: Context, code: str, dry_run: bool = True) -> str:
 
 @mcp.resource("grok://strategy/3d-modeling")
 def modeling_strategy() -> str:
-    return """# Grok + Blender MCP — Best Practices (v0.2)
+    return """# Grok + Blender MCP - Best Practices (v0.2)
 
 ## Golden Rules
-1. **See first** — Always call take_screenshot() after significant changes. You can literally see the result.
-2. **Small steps** — One logical change per turn. Verify with screenshot + get_object().
-3. **High-level first** — create_primitive, transform_object, set_material, add_light, setup_camera are safe and reliable.
-4. **Undo is free** — Use the undo tool liberally.
-5. **Safe Mode is your friend** — The addon starts restrictive. Only escalate to execute_code when truly needed, and always dry_run first.
+1. **See first** - Always call take_screenshot() after significant changes. You can literally see the result.
+2. **Small steps** - One logical change per turn. Verify with screenshot + get_object().
+3. **High-level first** - create_primitive, transform_object, set_material, add_light, setup_camera are safe and reliable.
+4. **Undo is free** - Use the undo tool liberally.
+5. **Safe Mode is your friend** - The addon starts restrictive. Only escalate to execute_code when truly needed, and always dry_run first.
 
 ## Recommended Workflow
 Inspect (get_scene_info + screenshot) → Plan one atomic change → Execute high-level tool → Screenshot + verify → Repeat.
@@ -282,7 +282,7 @@ Inspect (get_scene_info + screenshot) → Plan one atomic change → Execute hig
 ## Using Your Own Image Generation
 Generate reference images with your Flux/Aurora tool, save them, then describe them or use them as modeling guides inside Blender.
 
-Save your .blend often. This tool gives you real power — use it responsibly.
+Save your .blend often. This tool gives you real power - use it responsibly.
 """
 
 @mcp.prompt()
