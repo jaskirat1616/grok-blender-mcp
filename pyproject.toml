@@ -17,7 +17,7 @@ dependencies = [
 grok-blender-mcp = "grok_blender_mcp.server:main"
 
 [project.urls]
-Homepage = "https://github.com/xai-org/grok-blender-mcp"
+Homepage = "https://github.com/jaskirat1616/grok-blender-mcp"
 
 [tool.setuptools.packages.find]
 where = ["src"]
